@@ -1,5 +1,5 @@
 absl-py==2.1.0
-Python<3.11
+Python==3.12.4
 astunparse==1.6.3
 blinker==1.8.2
 certifi==2024.7.4
