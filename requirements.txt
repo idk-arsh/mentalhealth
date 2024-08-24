@@ -1,9 +1,7 @@
 Flask==3.0.3
 keras==3.5.0
 pandas==2.2.2
-tensorboard-data-server==0.7.2
-tensorflow==2.10.0
-tensorflow-intel==2.10.0
+pip install TensorFlow
 tf_keras==2.10.0
 tokenizers==0.19.1
 transformers==4.44.2
