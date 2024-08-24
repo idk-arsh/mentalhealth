@@ -1,8 +1,8 @@
-Flask==3.0.3
-keras==3.5.0
-pandas==2.2.2
+Flask
+keras
+pandas
 TensorFlow
 tf-keras
-tokenizers==0.19.1
-transformers==4.44.2
+tokenizers
+transformers
 
