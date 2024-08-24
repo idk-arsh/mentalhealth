@@ -1,0 +1,442 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi", "Hey", "Is anyone there?", "Hi there", "Hello", "Hey there", "Howdy", 
+          "Hola", "Bonjour", "Hay", "Sasa", "Good Evening", "Good afternoon"
+        ],
+        "responses": [
+          "Hello there. Tell me how are you feeling today?", 
+          "Hi there. What brings you here today?", 
+          "Hi there. How are you feeling today?", 
+          "Great to see you. How do you feel currently?", 
+          "Hello there. Glad to see you're back. What's going on in your world right now?"
+        ]
+      },
+      {
+        "tag": "morning",
+        "patterns": ["Good morning"],
+        "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today?"]
+      },
+      {
+        "tag": "afternoon",
+        "patterns": ["Good afternoon"],
+        "responses": ["Good afternoon. How is your day going?"]
+      },
+      {
+        "tag": "evening",
+        "patterns": ["Good evening"],
+        "responses": ["Good evening. How has your day been?"]
+      },
+      {
+        "tag": "night",
+        "patterns": ["Good night"],
+        "responses": [
+          "Good night. Get some proper sleep", 
+          "Good night. Sweet dreams."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"
+        ],
+        "responses": [
+          "See you later.", 
+          "Have a nice day.", 
+          "Bye! Come back again.", 
+          "I'll see you soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks", "Thank you", "That's helpful", "Thanks for the help", "Thank you very much"
+        ],
+        "responses": [
+          "Happy to help!", 
+          "Any time!", 
+          "My pleasure", 
+          "You're most welcome!"
+        ]
+      },
+      {
+        "tag": "no-response",
+        "patterns": [""],
+        "responses": [
+          "Sorry, I didn't understand you.", 
+          "Please go on.", 
+          "Not sure I understand that.", 
+          "Please don't hesitate to talk to me."
+        ]
+      },
+      {
+        "tag": "neutral-response",
+        "patterns": ["nothing much","nothing really","nothing"],
+        "responses": ["Oh I see. Do you want to talk about something?"]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+          "Who are you?", "What are you?", "Who you are?", 
+          "Tell me more about yourself.", "What is your name?", 
+          "What should I call you?", "What's your name?", "Tell me about yourself"
+        ],
+        "responses": [
+          "I'm Melon Collie, your Personal Therapeutic AI Assistant. How are you feeling today?", 
+          "I'm Zoya, a Therapeutic AI Assistant designed to assist you. Tell me about yourself.", 
+          "I'm Jade. I am a conversational agent designed to mimic a therapist. So how are you feeling today?", 
+          "You can call me Jade.", 
+          "I'm Jade!", 
+          "Call me Jade"
+        ]
+      },
+      {
+        "tag": "admiration",
+        "patterns": [
+          "I really admire this",
+          "This is amazing",
+          "I'm so impressed",
+          "I look up to this"
+        ],
+        "responses": [
+          "Admiration is a great feeling. It's wonderful to recognize the good in things.",
+          "It's inspiring to hear that you're feeling this way!",
+          "Admiration can motivate us to achieve more.",
+          "It's great to see you appreciate the positive aspects."
+        ]
+      },
+      {
+        "tag": "amusement",
+        "patterns": [
+          "This is so funny",
+          "I'm really amused",
+          "That made me laugh",
+          "I'm entertained"
+        ],
+        "responses": [
+          "Laughter is the best medicine! Glad you're amused.",
+          "It's great to find joy in the little things.",
+          "Amusement keeps our spirits high!",
+          "Keep smiling, it's contagious!"
+        ]
+      },
+      {
+        "tag": "anger",
+        "patterns": [
+          "I'm so angry",
+          "I can't stand this",
+          "I'm furious",
+          "Everything makes me mad"
+        ],
+        "responses": [
+          "It's okay to feel angry. Let's take a deep breath together.",
+          "Anger is a natural emotion. I'm here to help you calm down.",
+          "I understand why you're upset. Do you want to talk about it?",
+          "Let's find a way to channel this anger into something positive."
+        ]
+      },
+      {
+        "tag": "annoyance",
+        "patterns": [
+          "This is so annoying",
+          "I'm really irritated",
+          "Everything is getting on my nerves",
+          "I can't stand this anymore"
+        ],
+        "responses": [
+          "Annoyance can be tough to deal with. Let's take a moment to relax.",
+          "I understand why you're feeling this way. Let's work through it.",
+          "Sometimes things just get to us. I'm here to listen.",
+          "Let's try to shift focus and find something positive to think about."
+        ]
+      },
+      {
+        "tag": "caring",
+        "patterns": [
+          "I really care about this",
+          "I want to help",
+          "I'm concerned about you",
+          "I feel compassionate"
+        ],
+        "responses": [
+          "It's beautiful that you care so much. The world needs more of that.",
+          "Your compassion is admirable. Let's work together to make a difference.",
+          "Caring is a strength. It shows how deeply you feel.",
+          "Your concern is important. It's wonderful to see someone so thoughtful."
+        ]
+      },
+      {
+        "tag": "confusion",
+        "patterns": [
+          "I'm so confused",
+          "I don't understand",
+          "This doesn't make any sense",
+          "I'm really lost"
+        ],
+        "responses": [
+          "It's okay to feel confused. Let's work through this together.",
+          "Sometimes things aren't clear at first. Let's take it step by step.",
+          "I'm here to help you find clarity.",
+          "Let's try to break it down and figure it out."
+        ]
+      },
+      {
+        "tag": "desire",
+        "patterns": [
+          "I really want this",
+          "I'm craving something",
+          "I desire this so much",
+          "I wish I had this"
+        ],
+        "responses": [
+          "Desire can be powerful. Let's talk about what you're longing for.",
+          "It's okay to want things. Let's explore what this means to you.",
+          "Desires can guide us to our goals. Let's work on achieving yours.",
+          "Wanting something is natural. Let's see how we can make it happen."
+        ]
+      },
+      {
+        "tag": "disappointment",
+        "patterns": [
+          "I'm so disappointed",
+          "This didn't go as planned",
+          "I feel let down",
+          "Everything is just disappointing"
+        ],
+        "responses": [
+          "I'm sorry you're feeling this way. Disappointment can be tough.",
+          "It's okay to feel let down. Let's talk about it.",
+          "Sometimes things don't go our way. I'm here for you.",
+          "Let's figure out how to move past this disappointment."
+        ]
+      },
+      {
+        "tag": "disapproval",
+        "patterns": [
+          "I don't approve of this",
+          "This isn't right",
+          "I strongly disagree",
+          "I'm against this"
+        ],
+        "responses": [
+          "It's okay to feel disapproval. Let's discuss what bothers you.",
+          "Your perspective is important. I'm here to listen.",
+          "Disapproval can be a sign of strong values. Let's explore yours.",
+          "Let's talk about why this doesn't sit right with you."
+        ]
+      },
+      {
+        "tag": "disgust",
+        "patterns": [
+          "I'm disgusted",
+          "This is revolting",
+          "I can't stand this",
+          "Everything is so gross"
+        ],
+        "responses": [
+          "Disgust is a strong reaction. Let's talk about what's bothering you.",
+          "It's okay to feel this way. I'm here to listen.",
+          "Do you want to discuss what triggered this feeling?",
+          "Let's try to understand where this disgust is coming from."
+        ]
+      },
+      {
+        "tag": "embarrassment",
+        "patterns": [
+          "I'm so embarrassed",
+          "That was really awkward",
+          "I can't believe that happened",
+          "I'm so ashamed"
+        ],
+        "responses": [
+          "It's okay, everyone feels embarrassed sometimes. You're not alone.",
+          "Let's talk about what happened. I'm here for you.",
+          "Embarrassment can be tough, but it doesn't define you.",
+          "It's just a moment in time. It doesn't change who you are."
+        ]
+      },
+      {
+        "tag": "excitement",
+        "patterns": [
+          "I'm so excited",
+          "This is thrilling",
+          "I can't wait for this",
+          "I'm really looking forward to it"
+        ],
+        "responses": [
+          "Excitement is contagious! I'm thrilled for you.",
+          "It's great to see you so excited. Enjoy the moment!",
+          "Your enthusiasm is inspiring. Let's celebrate this together.",
+          "I can feel your excitement. It's wonderful!"
+        ]
+      },
+      {
+        "tag": "fear",
+        "patterns": [
+          "I'm really scared",
+          "This is terrifying",
+          "I'm so afraid",
+          "Everything feels so frightening"
+        ],
+        "responses": [
+          "Fear is a natural emotion. I'm here to help you feel safe.",
+          "It's okay to be scared. Let's work through this together.",
+          "I'm here to support you. Let's talk about what's causing this fear.",
+          "Let's find a way to overcome this fear together."
+        ]
+      },
+      {
+        "tag": "gratitude",
+        "patterns": [
+          "I'm so grateful",
+          "Thank you so much",
+          "I appreciate this",
+          "I'm really thankful"
+        ],
+        "responses": [
+          "Gratitude is a beautiful feeling. It's wonderful that you feel this way.",
+          "Thankfulness can bring so much positivity into our lives.",
+          "Your appreciation means a lot. I'm glad I could help.",
+          "Gratitude is a gift. Keep spreading it!"
+        ]
+      },
+      {
+        "tag": "grief",
+        "patterns": [
+          "I'm so sad",
+          "This is heartbreaking",
+          "I can't stop crying",
+          "I'm grieving"
+        ],
+        "responses": [
+          "I'm sorry for your loss. Grief can be overwhelming.",
+          "It's okay to cry. Let your emotions flow.",
+          "Grieving is a process. I'm here to support you.",
+          "Let's talk about your feelings. You're not alone in this."
+        ]
+      },
+      {
+        "tag": "happiness",
+        "patterns": [
+          "I'm so happy",
+          "This is wonderful",
+          "I feel so good",
+          "Everything is going great"
+        ],
+        "responses": [
+          "Happiness is a gift. Enjoy every moment!",
+          "It's great to see you so happy. Keep shining!",
+          "Your happiness is contagious. Let's spread the joy!",
+          "I'm so glad to hear you're feeling this way. Keep it up!"
+        ]
+      },
+      {
+        "tag": "jealousy",
+        "patterns": [
+          "I'm so jealous",
+          "I wish I had that",
+          "I'm envious",
+          "I can't stand it"
+        ],
+        "responses": [
+          "Jealousy can be tough. Let's talk about what's bothering you.",
+          "It's okay to feel this way. I'm here to listen.",
+          "Let's explore why you're feeling this way and work through it.",
+          "Jealousy can be a sign of unmet needs. Let's find a way to address them."
+        ]
+      },
+      {
+        "tag": "joy",
+        "patterns": [
+          "I'm so joyful",
+          "This is pure bliss",
+          "I'm really happy",
+          "Everything feels so good"
+        ],
+        "responses": [
+          "Joy is a wonderful feeling. Embrace it!",
+          "Your joy is shining through. Keep it up!",
+          "It's great to see you so joyful. Let's celebrate this moment!",
+          "I'm thrilled to hear you're feeling this way. Enjoy every moment!"
+        ]
+      },
+      {
+        "tag": "love",
+        "patterns": [
+          "I'm so in love",
+          "This is pure affection",
+          "I feel so connected",
+          "Everything feels so right"
+        ],
+        "responses": [
+          "Love is a beautiful emotion. Cherish it!",
+          "It's wonderful to feel so connected. Enjoy every moment.",
+          "Your love is shining through. Keep it up!",
+          "I'm so happy to hear you're feeling this way. Love is a gift!"
+        ]
+      },
+      {
+        "tag": "nervousness",
+        "patterns": [
+          "I'm really nervous",
+          "This is making me anxious",
+          "I'm feeling jittery",
+          "Everything feels so tense"
+        ],
+        "responses": [
+          "Nervousness can be tough. Let's take a deep breath together.",
+          "It's okay to feel nervous. I'm here to support you.",
+          "Let's work on calming those nerves. I'm here for you.",
+          "We'll get through this together. Let's take it one step at a time."
+        ]
+      },
+      {
+        "tag": "remorse",
+        "patterns": [
+          "I feel so guilty",
+          "I'm full of regret",
+          "I can't stop thinking about what I did",
+          "Everything feels so wrong"
+        ],
+        "responses": [
+          "Remorse can be heavy. Let's talk about what's on your mind.",
+          "It's okay to feel this way. I'm here to listen.",
+          "Let's work through these feelings of regret together.",
+          "Guilt can be tough to bear. I'm here to help you process it."
+        ]
+      },
+      {
+        "tag": "sadness",
+        "patterns": [
+          "I'm so sad",
+          "This is depressing",
+          "I can't stop crying",
+          "Everything feels so bleak"
+        ],
+        "responses": [
+          "Sadness is a natural emotion. I'm here to help you through it.",
+          "It's okay to feel this way. Let's talk about what's bothering you.",
+          "I'm here to support you. Let's work through this sadness together.",
+          "Let's find a way to lift your spirits. I'm here for you."
+        ]
+      },
+      {
+        "tag": "surprise",
+        "patterns": [
+          "I'm so surprised",
+          "This is unexpected",
+          "I can't believe this",
+          "Everything feels so new"
+        ],
+        "responses": [
+          "Surprise can be exhilarating! Let's embrace the unexpected.",
+          "It's great to see you so surprised. Enjoy the moment!",
+          "Surprise can bring a fresh perspective. Let's explore it.",
+          "I'm here to share in your surprise. Let's make the most of it!"
+        ]
+      }
+    ]
+  }
+  
