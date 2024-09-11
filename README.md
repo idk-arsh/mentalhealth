@@ -20,7 +20,7 @@ For the backend, I used the Flask framework because it is lightweight and easy f
 
 ### 🤖 Machine Learning
 ![Supervised Learning](https://img.shields.io/badge/Supervised%20Learning-FF6F00?style=for-the-badge)
-![Transfer Learning](https://img.shields.io/badge/Transfer%20Learning-FF6F00?style=for-the-badges&logoColor=white)
+![Transfer Learning](https://img.shields.io/badge/Transfer%20Learning-FF6F00?style=for-the-badges)
 
 ### 🌐 Web Development
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
