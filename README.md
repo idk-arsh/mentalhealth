@@ -25,6 +25,7 @@ For the backend, I used the Flask framework because it is lightweight and easy f
 ### 🌐 Web Development
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![RESTful APIs](https://img.shields.io/badge/RESTful%20APIs-FF6F00?style=for-the-badge)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 ## 🔧 Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
