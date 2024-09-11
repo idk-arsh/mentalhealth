@@ -16,7 +16,7 @@ For the backend, I used the Flask framework because it is lightweight and easy f
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![NLP](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NLP](https://img.shields.io/badge/nlp-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### 🤖 Machine Learning
 ![Supervised Learning](https://img.shields.io/badge/Supervised%20Learning-FF6F00?style=for-the-badge)
