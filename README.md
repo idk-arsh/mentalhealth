@@ -1,4 +1,4 @@
-# Mental Health Chatbot 
+# Emofiy
 
 As we move towards modernization, people are facing issues with sharing their feelings or talking about their day. To address this problem, I leveraged my knowledge of machine learning to create a model that can predict human emotions, achieving an accuracy of 90%.
 
